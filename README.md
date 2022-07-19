@@ -1,2 +1,2 @@
 # Messaging-Service
-Intellecta Exercise
+Задание для сайта Intellekt-a.
