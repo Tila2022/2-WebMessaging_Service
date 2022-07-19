@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            font-weight:bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>TechIndustry</h1>
+<form method="post" action="/messages">
+    <p><label><input type="text" placeholder="Введите сообщение" size="15"></label>
+        <label><input type="text" placeholder="Тэг" size="15"></label>
+        <input type="submit" value="Добавить"></p>
+</form>
+<form method="post" action="/filter">
+    <h2>Список сообщений</h2>
+    <p><label><input type="text" placeholder="" size="15"></label>
+    <input type="submit"  value="Найти"></p>
+</form>
+<p>5 Some new message new</p>
+<p>6 Another some</p>
+<p>7 New one none</p>
+<p>8 More one none</p>
+</body>
+</html>

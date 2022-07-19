@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>TechIndustry</h1>
+<div th:if="${param.error}">
+    Неправильное имя или пароль.
+</div>
+<div th:if="${param.logout}">
+    Вы вышли из системы.
+</div>
+<form action="/sales" method="post">
+    <br>
+    <div><label> Имя продавца: <input type="text" name="username"/></label></div>
+    <div><label> Пароль: <input type="password" name="password"/></label></div>
+    <div><input type="submit" value="Войти"/></div>
+</form>
+</body>
+</html>
