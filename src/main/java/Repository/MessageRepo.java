@@ -1,6 +1,6 @@
 package Repository;
 
-import Message_poket.Message;
+import Messages.Message;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

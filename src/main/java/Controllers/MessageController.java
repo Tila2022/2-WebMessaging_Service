@@ -1,6 +1,6 @@
 package Controllers;
 
-import Message_poket.Message;
+import Messages.Message;
 import Repository.MessageRepo;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Controller;

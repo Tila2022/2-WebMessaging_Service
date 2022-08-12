@@ -1,4 +1,4 @@
-package Message_poket;
+package Messages;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
