@@ -1,17 +1,15 @@
-package com.example.web_application;
+package Repository;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.Duration;
 
-@SpringBootTest
-class WebApplicationTests {
-    WebApplication webApplication;
+class SalesJDBCRepositoryTest {
+    SalesJDBCRepository salesJDBCRepository;
     @Test
     public void ExceptionTest() {
-        Assertions.assertDoesNotThrow(() -> webApplication);
+        Assertions.assertDoesNotThrow(() -> salesJDBCRepository);
         // Тест на исключение
     }
 
